@@ -25,6 +25,7 @@ allPipelines.each { job ->
         } else {
             println "  --> Modifying ${job.getFullName()}"
             job.removeProperty(DurabilityHintJobProperty.class)
+            job.save()
         }
         println ""
     }
