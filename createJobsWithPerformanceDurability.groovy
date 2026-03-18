@@ -1,6 +1,5 @@
 // Create sample jobs with PERFORMANCE_OPTIMIZED durability for testing
 
-import javaposse.jobdsl.plugin.*
 import org.jenkinsci.plugins.workflow.job.WorkflowJob
 import org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition
 import org.jenkinsci.plugins.workflow.job.properties.DurabilityHintJobProperty
